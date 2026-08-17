@@ -1,0 +1,6 @@
+{
+  "name": "UniMate",
+  "description": "The only companion a student (really) needs: multi-app ride-hailing & transport fare comparator across Grab, Bolt, inDrive, Kumpool, and RapidKL public transit with student concession, campus meal nutrition analyzer, and monthly student budget tracker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

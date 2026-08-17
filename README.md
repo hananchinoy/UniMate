@@ -1,11 +1,31 @@
-<div align="center">
+# UniMate AI — Automated Student Transit & Cost-of-Living Optimizer
+> **XPRIZE Submission**
+> **Selected Category:** Money & Financial Access: Breaking down barriers to banking, capital, and financial freedom.
+> **Cloud Infrastructure:** Google Cloud Run, Google Gemini Multimodal Vision, Google Maps Platform
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+---
 
-  <h1>Built with AI Studio</h2>
+## 🚀 Overview & Architecture
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+UniMate AI is an autonomous, AI-operated daily cost-of-living and urban transit intelligence system engineered for university students across Malaysian metropolitan campuses (Universiti Malaya, Sunway, Monash, Taylor's, APU, UKM).
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+The application runs as a production-grade full-stack Node.js + React + Express architecture deployed continuously on **Google Cloud Run**:
 
-</div>
+
+---
+
+## 🛠️ How to Run Locally
+
+```bash
+# 1. Install dependencies
+npm install
+
+# 2. Run the development server (Binds to 0.0.0.0:3000)
+npm run dev
+
+# 3. Build for production (compiles React + esbuild CommonJS server)
+npm run build
+
+# 4. Start production container server
+npm start
+```
